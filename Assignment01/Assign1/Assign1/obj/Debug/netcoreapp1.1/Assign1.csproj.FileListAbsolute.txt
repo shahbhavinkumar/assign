@@ -2,3 +2,8 @@ C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\
 C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\netcoreapp1.1\Assign1.runtimeconfig.json
 C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\netcoreapp1.1\Assign1.runtimeconfig.dev.json
 C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\obj\Debug\netcoreapp1.1\Assign1.AssemblyInfo.cs
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\netcoreapp1.1\Assign1.dll
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\netcoreapp1.1\Assign1.pdb
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\obj\Debug\netcoreapp1.1\Assign1.csprojResolveAssemblyReference.cache
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\obj\Debug\netcoreapp1.1\Assign1.dll
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\obj\Debug\netcoreapp1.1\Assign1.pdb

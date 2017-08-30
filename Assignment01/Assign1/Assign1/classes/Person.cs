@@ -50,15 +50,19 @@ namespace Assign1
         static void Main(string[] args)
         {
 
-            string path = @"c:/readMe.txt";
+            string path = @"C:/R.txt";
             try
             {
                 if (File.Exists(path))
                 {
-                    File.Delete(path);
+                    //File.Delete(path);
                 }
 
-                using (StreamReader sr = new StreamReader(@"C:/readMe.txt"))
+                byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(path);
+                //byte[] byteArray = Encoding.ASCII.GetBytes(contents);
+                MemoryStream stream = new MemoryStream(byteArray);
+
+                using (StreamReader sr = new StreamReader(stream))
                 {
                     while (sr.Peek() >= 0)
                     {
