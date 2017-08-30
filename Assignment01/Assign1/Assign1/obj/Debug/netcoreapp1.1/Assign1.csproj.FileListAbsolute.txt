@@ -1,0 +1,4 @@
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\netcoreapp1.1\Assign1.deps.json
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\netcoreapp1.1\Assign1.runtimeconfig.json
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\bin\Debug\netcoreapp1.1\Assign1.runtimeconfig.dev.json
+C:\Users\bhavin\Desktop\.net assignments\Assignment01\Assign1\Assign1\obj\Debug\netcoreapp1.1\Assign1.AssemblyInfo.cs
