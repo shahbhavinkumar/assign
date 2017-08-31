@@ -49,30 +49,18 @@ namespace Assign1
         //Main() to invoke the program 
         static void Main(string[] args)
         {
+            string path = @"c:\R.txt";
 
-            string path = @"C:/R.txt";
-            try
+            using (FileStream fs = new FileStream(path, FileMode.Open))
             {
-                if (File.Exists(path))
+                using (StreamReader sr = new StreamReader(fs))
                 {
-                    //File.Delete(path);
-                }
 
-                byte[] byteArray = System.Text.Encoding.UTF8.GetBytes(path);
-                //byte[] byteArray = Encoding.ASCII.GetBytes(contents);
-                MemoryStream stream = new MemoryStream(byteArray);
-
-                using (StreamReader sr = new StreamReader(stream))
-                {
                     while (sr.Peek() >= 0)
                     {
                         Console.WriteLine(sr.ReadLine());
                     }
                 }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("The process failed: {0}", e.ToString());
             }
         }
     }
